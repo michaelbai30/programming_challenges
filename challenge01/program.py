@@ -1,50 +1,48 @@
 import sys
 import collections
 
-def shortestCompletingWord(licensePlate, words):
+def shortest_completing_word(license_plate, words):
     # result is guaranteed to be less than 16 characters (from Leetcode equivalent)
     res = "?" * 16
 
-    freqLicensePlateChars = collections.defaultdict(int)
-    freqWord = collections.defaultdict(int)
+    freq_license_plate_chars = collections.defaultdict(int)
+    freq_word = collections.defaultdict(int)
 
     # construct a frequency dictionary for the alphabetic license plate chars
-    for char in licensePlate:
+    for char in license_plate:
         if char.isalpha():
-            freqLicensePlateChars[char.lower()] += 1
+            freq_license_plate_chars[char.lower()] += 1
 
     # for each word, construct a frequency dictionary
     for word in words:        
-        validCompletingWord = True
+        valid_completing_word = True
         for char in word:
-            freqWord[char.lower()] += 1
+            freq_word[char.lower()] += 1
 
         # if there are more occurences of some letter in the license plate 
         # than in the word, it cannot be a valid completing word
-        for key in freqLicensePlateChars:
-            if freqLicensePlateChars[key] > freqWord[key]:
-                validCompletingWord = False
+        for key in freq_license_plate_chars:
+            if freq_license_plate_chars[key] > freq_word[key]:
+                valid_completing_word = False
                 break
 
-        if len(word) < len(res) and validCompletingWord:
+        if len(word) < len(res) and valid_completing_word:
             res = word
     
-        freqWord.clear()
+        freq_word.clear()
     return res
 
 def main():
-
-    licensePlates = []
+    license_plates = []
     words = []
 
     for line in sys.stdin:
-
         elements = line.strip().split(',')
-        licensePlates.append(elements[0])
+        license_plates.append(elements[0])
         words.append(elements[1:])
 
-    for count, licensePlate in enumerate(licensePlates):
-        print(f'{count + 1}. {shortestCompletingWord(licensePlate, words[count])}')
+    for count, license_plate in enumerate(license_plates):
+        print(f'{count + 1}. {shortest_completing_word(license_plate, words[count])}')
 
 if __name__ == '__main__':
     main()
