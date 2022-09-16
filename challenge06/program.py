@@ -4,17 +4,20 @@ def distinct_fruit(fruits):
 
     hash_table = {}
     curr_len = 0
-    max_len = 0 
+    max_len = 0
     max_seq = ''
 
     # starting position of substring containing the max len seq of distinct fruit
     start = -1 # default = -1
 
     for i, fruit in enumerate(fruits):
-        if fruit in hash_table and hash_table[fruit] > start: # if already hashed and new start index is farther along than curr start
-            start = hash_table[fruit] # update start
+        # if already hashed and new start index is farther along than curr start
+        if fruit in hash_table and hash_table[fruit] > start:
+            # update start
+            start = hash_table[fruit]
         
-        hash_table[fruit] = i # add to hash, even if already hashed
+        # add to hash, even if already hashed
+        hash_table[fruit] = i
         curr_len = i - start 
         if curr_len > max_len: # new max_seq
             max_seq = fruits[start + 1 : i + 1]
@@ -23,7 +26,8 @@ def distinct_fruit(fruits):
     return max_len, max_seq
 
 def main():
-    fruits_list = [] # list of test cases
+    # list of test cases
+    fruits_list = []
 
     for line in sys.stdin:
         fruits = line.strip().split(' ')
