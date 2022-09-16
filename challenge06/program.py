@@ -29,7 +29,7 @@ def main():
         fruits = line.strip().split(' ')
         fruits_list.append(fruits)
     
-    for i, fruits in enumerate(fruits_list):
+    for fruits in fruits_list:
         print(f'{distinct_fruit(fruits)[0]}: {", ".join(distinct_fruit(fruits)[1])}')
 
 if __name__ == '__main__':
