@@ -23,7 +23,9 @@ def knight_dialer(start, num_hops, combo):
     res = []
     # for each digit in start's possible knight paths
     for next_digit in number_paths[start]:
-        # call knight_dialer recursively, decrementing hops and appending the new digit to the current combo
+        # call knight_dialer recursively
+        # decrementing hops
+        # and appending the new digit to the current combo
         combos = knight_dialer(next_digit, num_hops - 1, combo + str(next_digit))
         res.extend(combos)
     return res
@@ -40,8 +42,7 @@ def main():
         start, num_hops, combo = test[0],test[1] , str(test[0])
         combos = knight_dialer(start, num_hops - 1, combo)
         for combo in combos:
-            print(combo)
-        
+            print(combo) 
     
 if __name__ == '__main__':
     main()
