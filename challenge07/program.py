@@ -23,7 +23,9 @@ def main():
     for line in sys.stdin:
         raw_test_case = line.split(' ')
         test_case = [int(x) for x in raw_test_case]
-        test_cases.append(test_case) # example input: -1 0 1 2 -1 -4, output: [[-1 , 0, 1 , 2, -1, -4]]
+        # example input: -1 0 1 2 -1 -4
+        # output: [[-1 , 0, 1 , 2, -1, -4]]
+        test_cases.append(test_case) 
     
     for test_case in test_cases:
         list_of_matches.append(triplets(test_case)) # call triplets on each test case
