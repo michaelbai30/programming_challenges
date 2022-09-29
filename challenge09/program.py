@@ -1,11 +1,9 @@
 import sys
-import math
 
-def masked_bits(mask, bitstream):
-    
+def masked_bits(mask, bitstream):    
     # string (from sys.stdin) -> int -> binary
-    bin_mask = "{0:04b}".format(int(mask, 16))
-    bin_bitstream = "{0:032b}".format(int(bitstream))
+    bin_mask = f"{int(mask, 16):>04b}"
+    bin_bitstream = f"{int(bitstream):>032b}"
 
     # how many times a particular mask appears in each bitstream.
     count = 0
@@ -21,7 +19,7 @@ def masked_bits(mask, bitstream):
 def main():
     list_of_cases = []
     for line in sys.stdin:
-        list_of_cases.append([element for element in line.strip().split(' ')])
+        list_of_cases.append(line.strip().split(' '))
     
     for i, case in enumerate(list_of_cases):
         mask = case[0]
@@ -31,4 +29,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
