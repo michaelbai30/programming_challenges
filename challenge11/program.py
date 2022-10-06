@@ -14,7 +14,8 @@ def min_transactions(value):
     for i in range(1, value + 1):
         if i < 2:
             continue
-       # if value of fortnite card is even, we can get to it through doubling half that value stored in the cache
+       # if value of fortnite card is even ...
+       # we can get to it through doubling half that value stored in the cache
         if i % 2 == 0:
             cache[i] = cache[i // 2] + 1 
        # else, we must get to it by adding one to the value to the left
