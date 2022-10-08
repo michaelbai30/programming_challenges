@@ -15,7 +15,9 @@ def min_kakamora(grid, n):
     for row in range(1, n + 1):
         for col in range(1, n + 1):
             # update table based on the value of the square + min(up, left, up-left)
-            table[row][col] = min(table[row-1][col], table[row][col-1], table[row-1][col-1]) + grid[row][col]
+            table[row][col] = grid[row][col] + min(table[row-1][col], 
+                                                    table[row][col-1], 
+                                                    table[row-1][col-1])
             table[1][1] = grid[1][1]
             
     return table
