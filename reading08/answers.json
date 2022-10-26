@@ -1,0 +1,29 @@
+{
+    "q1": [
+      "length",
+      "cycle",
+      "simple"
+    ],
+    "q2": [
+      "connected",
+      "directed",
+      "weighted",
+      "regular",
+      "complete"
+    ],
+    "q3": [
+      "graph1directed",
+      "graph2connected"
+    ],
+    "q4": [
+      "dfs1",
+      "bfs1"
+    ],
+    "q5": [
+      "negative",
+      "efficient",
+      "greedy",
+      "dynamic",
+      "priority"
+    ]
+  }
