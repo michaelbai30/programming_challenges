@@ -1,5 +1,4 @@
 import sys
-from collections import deque
 global COUNTER
 COUNTER = 0
 
@@ -14,7 +13,7 @@ def create_bct(nodes, index):
     if index >= len(nodes):
         return None
     
-    root = Node(nodes[index]) 
+    root = Node(nodes[index])
     root.left = create_bct(nodes, 2 * index + 1)
     root.right = create_bct(nodes, 2 * index + 2) 
 
