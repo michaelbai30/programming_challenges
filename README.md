@@ -9,35 +9,6 @@ This is the [CSE-30872-FA22] reading and challenge assignments repository for:
 
 [CSE-30872-FA22]:   https://www3.nd.edu/~pbui/teaching/cse.30872.fa22/
 
-## Readings
-
-**Readings** are due **before** class on the **Monday** of each week and are
-each worth **3** points.
-
-- [Reading 00](https://www3.nd.edu/~pbui/teaching/cse.30872.fa22/reading00.html)
-
-- [Reading 01](https://www3.nd.edu/~pbui/teaching/cse.30872.fa22/reading01.html)
-
-- [Reading 02](https://www3.nd.edu/~pbui/teaching/cse.30872.fa22/reading02.html)
-
-- [Reading 03](https://www3.nd.edu/~pbui/teaching/cse.30872.fa22/reading03.html)
-
-- [Reading 04](https://www3.nd.edu/~pbui/teaching/cse.30872.fa22/reading04.html)
-
-- [Reading 05](https://www3.nd.edu/~pbui/teaching/cse.30872.fa22/reading05.html)
-
-- [Reading 06](https://www3.nd.edu/~pbui/teaching/cse.30872.fa22/reading06.html)
-
-- [Reading 07](https://www3.nd.edu/~pbui/teaching/cse.30872.fa22/reading07.html)
-
-- [Reading 08](https://www3.nd.edu/~pbui/teaching/cse.30872.fa22/reading08.html)
-
-- [Reading 09](https://www3.nd.edu/~pbui/teaching/cse.30872.fa22/reading09.html)
-
-- [Reading 10](https://www3.nd.edu/~pbui/teaching/cse.30872.fa22/reading10.html)
-
-- [Reading 11](https://www3.nd.edu/~pbui/teaching/cse.30872.fa22/reading11.html)
-
 ## Challenges
 
 **Challenges** are due at **noon** on the **Saturday** of each week.  Each
@@ -88,5 +59,3 @@ each worth **3** points.
 - [Challenge 22](https://www3.nd.edu/~pbui/teaching/cse.30872.fa22/challenge22.html)
 
 - [Challenge 22](https://www3.nd.edu/~pbui/teaching/cse.30872.fa22/challenge22.html)
-
-- [Challenge 23](https://www3.nd.edu/~pbui/teaching/cse.30872.fa22/challenge23.html)
