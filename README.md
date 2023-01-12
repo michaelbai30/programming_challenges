@@ -11,8 +11,7 @@ This is the [CSE-30872-FA22] reading and challenge assignments repository for:
 
 ## Challenges
 
-**Challenges** are due at **noon** on the **Saturday** of each week.  Each
-**Challenge** is worth **6** points for correctness and **1** point for style.
+Each programming challenge is linked below
 
 - [Challenge 00](https://www3.nd.edu/~pbui/teaching/cse.30872.fa22/challenge00.html)
 
