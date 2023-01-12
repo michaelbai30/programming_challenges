@@ -4,8 +4,8 @@
 
 This is the [CSE-30872-FA22] reading and challenge assignments repository for:
 
-- **Name**:     Domer McDomerson
-- **NetID**:    dmcdomer
+- **Name**:     Michael Bai
+- **NetID**:    mbai
 
 [CSE-30872-FA22]:   https://www3.nd.edu/~pbui/teaching/cse.30872.fa22/
 
