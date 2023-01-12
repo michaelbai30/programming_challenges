@@ -2,7 +2,7 @@
 
 ![Dredd](https://github.com/nd-cse-30872-fa22/cse-30872-fa22-assignments/workflows/Dredd/badge.svg)
 
-This is the [CSE-30872-FA22] reading and challenge assignments repository for:
+This is the [CSE-30872-FA22] programming challenges repository for:
 
 - **Name**:     Michael Bai
 - **NetID**:    mbai
