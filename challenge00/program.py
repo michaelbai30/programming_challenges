@@ -7,7 +7,7 @@ def maxFourSquare(matrix):
     # we want virtually any value, no matter how small, to overwrite res first
     res = float('-inf')
 
-    # cum of the current four square
+    # sum of the current four square
     curSum = 0
      
     for r in range(numRows):
