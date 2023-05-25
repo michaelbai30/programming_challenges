@@ -1,4 +1,4 @@
-# CSE 30872 Programming Challenges (Fall 2022) - Assignments
+Hi. Below are a catelog of programming challenges / interview questions that I have solved in Python.
 
 ![Dredd](https://github.com/nd-cse-30872-fa22/cse-30872-fa22-assignments/workflows/Dredd/badge.svg)
 
