@@ -1,14 +1,12 @@
-Hi. Below are a catelog of programming challenges / interview questions that I have solved in Python.
+This is the [CSE-30872-FA22] programming challenges / interview questions repository for:
+
+- **Name**:     Michael Bai
+
+solved using Python.
 
 ![Dredd](https://github.com/nd-cse-30872-fa22/cse-30872-fa22-assignments/workflows/Dredd/badge.svg)
 
-This is the [CSE-30872-FA22] programming challenges repository for:
-
-- **Name**:     Michael Bai
-- **NetID**:    mbai
-
 [CSE-30872-FA22]:   https://www3.nd.edu/~pbui/teaching/cse.30872.fa22/
-
 ## Challenges
 
 Each programming challenge is linked below
