@@ -1,7 +1,7 @@
 ## Programming Challenges
 This is the [CSE-30872-FA22] programming challenges / interview questions repository for:
 
-- **Name**:     Michael Bai
+- **Michael Bai**:
 
 solved using Python.
 
