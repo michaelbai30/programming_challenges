@@ -1,7 +1,7 @@
 ## Programming Challenges
 Below is a repository of programming challenges / interview questions repository for:
 
-- **Michael Bai**
+**Michael Bai**
 
 solved using Python.
 
