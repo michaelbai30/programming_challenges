@@ -1,5 +1,5 @@
 ## Programming Challenges
-This is the [CSE-30872-FA22] programming challenges / interview questions repository for:
+Below is a repository of programming challenges / interview questions repository for:
 
 - **Michael Bai**
 
